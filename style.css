@@ -1,0 +1,87 @@
+/*******************************************
+****************    BODY    ****************
+*******************************************/
+
+body{
+	margin:0;
+	background-color: rgb(80,80,80);
+}
+
+/*******************************************
+****************   HEADER   ****************
+*******************************************/
+
+header{
+	height:800px;
+	margin: auto;
+	background:url("main1.jpg") repeat-x;
+	background-size:auto 100%;
+	background-position: 300px center;
+}
+
+header:after{
+	content: " ";
+	display: block;
+	background-color: rgba(0,0,255,0.5);
+	height:700px;
+}
+
+.navbar{
+	height:100px;
+	background-color: rgba(0,0,255,0.5);
+	border:2px solid red;
+}
+
+/*******************************************
+***************   ARTICLE   ****************
+*******************************************/
+
+article{
+	height:580px;
+	background-color: white;
+}
+
+/*******************************************
+****************   FOOTER   ****************
+*******************************************/
+
+footer{
+	height:480px;
+	background-color: rgb(80,80,80);
+}
+
+.ft_menu{
+	display: block;
+	margin:30px auto;
+	border:2px solid red;
+	padding:5px;
+	width: 1090px;
+}
+
+.column{
+	list-style: none;
+	display: inline-block;
+	height: 465px;
+	width: 350px;
+	margin-left:5px;
+	border: 2px solid green;
+}
+
+.column:last-child{
+	margin-right: 0;
+}
+
+.cell{
+	list-style: none;
+	display: block;
+	height: 100px;
+	margin:5px;
+	margin-left: -34px;
+	border: 2px solid red;
+}
+
+.cell_logo{
+	background:url("image/KTnXazojc1.png") no-repeat;
+	background-size:auto 100%;
+	background-position: 300px center;
+}
